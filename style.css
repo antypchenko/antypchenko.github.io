@@ -1,0 +1,30 @@
+		
+		h1 {
+			font-family: Times New Roman;
+			color: #990000;
+			background-color: pink;
+			padding: 20px;
+			text-align: center;
+			}
+		h2 {
+			font-family: Times New Roman;
+			color: black;
+			background-color: #99ff66;
+			padding: 20px;
+			text-align: center;
+			}
+		p {
+			font-family: Times New Roman;
+			padding-right: 60px;
+			color: blue;
+			}
+		div {
+			float: left;
+			border-right: 5px solid maroon;
+			}		
+		p.span {
+			color: fuchsia;
+			font-family: Verdana;
+			font-size: 18;
+			}
+		
