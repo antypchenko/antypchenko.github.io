@@ -46,7 +46,8 @@
 			font-size: 14px;
 			color: black;
 			}
-		
+		a:visited {
+			text-decoration: line-through;
 		a:hover {
 			color: yellow;
 			}
