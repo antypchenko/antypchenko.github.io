@@ -38,18 +38,17 @@
 			margin: 10px;
 			}
 
-		ul {
-			list-style-type: square;}
+		ul {list-style-type: square;}
 
 		li a {
-			font-family: verdana;
+			font-family: Verdana;
 			font-style: italic;
 			font-size: 14px;
 			color: black;
 			}
 		a:visited {
 			text-decoration: line-through;
-			}
+		}
 		a:hover {
 			color: yellow;
 			}
