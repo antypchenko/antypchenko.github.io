@@ -1,0 +1,76 @@
+
+body {background-image: linear-gradient( to top, yellow, lightgreen, deepskyblue );}
+
+h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin: 50px;
+	padding: 10px;
+	}
+
+.block1 {
+	margin: 5px auto 30px;
+	background-color: white;
+	height: 130px;
+	width: 360px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	}
+img {
+
+	height: 130px;
+	width: 134px; 
+	border-radius: 4px;
+	}
+span {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: green;
+	text-decoration: underline;
+	text-align: left;
+	padding: 0px 15px 10px 145px;
+	}
+.zagolovok {
+   	font-family: 'PT Sans', sans-serif;
+	color: deepskyblue;
+	text-transform: uppercase;
+	height: 30px;
+	margin-bottom: 0px;
+	padding: 15px 0px 0px 145px;
+	text-align: left;
+	}
+.description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin: 0px ;
+	padding: 0px 15px 5px 145px;
+	text-align: left;
+	}
+.colorsp { 
+	font-weight: bold;
+	color: white;
+	position: absolute; 
+	}
+.imgsize {
+	width:360px;
+	height: 130px; 
+	border-radius: 4px;
+	}
+.image-holder {
+	float: left;
+	}
+.seredniyblock {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin: 20px ;
+	width: 300px;
+	}
+.det {
+	padding: 100px 15px 5px 20px;
+	}
