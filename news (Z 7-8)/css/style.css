@@ -1,0 +1,150 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+	min-height: 100%;
+}
+
+
+body {
+
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: normal;	
+	font-size: 13px;
+	background: linear-gradient(to bottom, #00A3FF, #FFF94C) 0 0 no-repeat;
+}
+
+.news-wrapper {
+	max-width: 1000px;
+	margin: 10px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-weight: bold;
+
+}
+
+
+h1 {	
+	font-size: 36px;	
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+
+article {
+	background: white;
+	width: 360px;	
+	max-height: 130px;
+	border-radius: 4px;
+	float: left;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+article .image-holder {
+
+	width: 37.22%;
+}
+
+article .content-holder {
+	width: 62.78%;
+	padding: 15px 15px 15px 20px;
+}
+
+
+
+article .content-holder h3 {
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #00AFEF;
+}
+
+article .content-holder p {
+	font-size: 12px;
+	text-align: left;
+}
+
+
+
+a.show-more {
+	display: inline-block;
+	margin-top: 10px;
+	color: #3C8204;
+}
+
+
+
+article div {
+
+	float: left;
+
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+	
+}
+
+/*Все моє  */
+.img1 {
+	position: absolute;
+	top: 120px;
+	left: 320px;
+}
+
+.img3 {
+	position: absolute;
+	top: 280px;
+	left: 320px;
+}
+
+.img4 {
+	position: absolute;
+	top: 280px;
+	left: 720px;
+}
+
+.img6 {
+position: absolute;
+	top: 440px;
+	left: 720px;
+}
+
+.img2 {
+
+position: absolute;
+	top: 120px;
+	left: 720px;
+	
+}
+.img5 {
+position: absolute;
+	top: 440px;
+	left: 320px;
+	
+}
+.img5 p, .img2 p {
+	position: relative;
+	padding: 10px 5px;
+		color: white;
+	font-size: 16px;
+	left: -120px;
+}
+
+.img5 a, .img2 a {
+	color: white;
+font-size: 12px;
+} 
+
+i {
+	padding: 5px 35px 5px 10px;
+}
+
+.image-holder img {
+	border-radius: 4px;
+}
