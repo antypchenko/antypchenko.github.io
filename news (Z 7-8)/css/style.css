@@ -17,8 +17,9 @@ body {
 }
 
 .news-wrapper {
-	max-width: 1000px;
+	max-width: 960px;
 	margin: 10px auto;
+	padding: 0 5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -143,8 +144,15 @@ font-size: 12px;
 
 i {
 	padding: 5px 35px 5px 10px;
+	
 }
 
 .image-holder img {
 	border-radius: 4px;
+}
+i.date {
+	position: absolute;
+	right: 10px;
+	bottom: 22px;
+	color: white;
 }
