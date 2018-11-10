@@ -101,57 +101,71 @@ article div {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
-
 }
 /*Складові контейнера*/
-.items {
 
-	align-content: space-between;
-}
+.fon-image p {
 
-.img5 p, .img2 p {
-
-	padding: 10px 5px;
-		color: white;
-	font-size: 16px;
-	
-}
-
-.img5 a, .img2 a {
 	color: white;
-font-size: 12px;
+	font-size: 16px;
+	padding: 10px;
+	}
+ .fon-image a, .fon-image i {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 25px;
 } 
-
-
-i {
-	
-	padding: 5px 35px 5px 10px;
-
-}
-
-.image-holder img {
-	border-radius: 4px;
-}
-i.date {
-	
-		color: white;
-}
-
-/* Хедер і футер*/
-.flex-container {
-	background: white;
+.fon-image {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-image: url("../img/osin.png");
+	border-radius: 4px;
+	width: 360px;
+	height:130px;
+	}
+.fon-image div i {
+	padding-left: 150px;
 }
-.flex-container a {
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 15px;
+
+.fa {
+	padding: 0 15px;
+}
+/* Хедер і футер*/
+.header {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	background: white;
 	color: #00AFEF;
 	text-decoration: none;
-
+}
+.header-section {
+	width: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+.header-item {
+	padding: 10px 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right: 40px;
+}
+.header-item a {
+	color: #00AFEF;
+	text-decoration: none;
+}
+.header-item-logo {
+	margin-left: 160px;
+	background-image: url("../img/logo-wowt.png");
+	width: 91px;
+	height: 43px;
 }
 .footer {
 	height: 100px;
@@ -162,5 +176,6 @@ i.date {
 	align-items: center;
 	color: white;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 12px;
+	font-weight: bold;
 }
