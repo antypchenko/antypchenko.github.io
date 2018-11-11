@@ -167,7 +167,7 @@ article div {
 	height: 43px;
 	}
 .footer {
-	height: 100px;
+	padding: 10%;
 	width: auto;
 	background: grey;
 	display: flex;
