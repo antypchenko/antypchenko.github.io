@@ -142,31 +142,30 @@ article div {
 	padding: 10px;
 	background: white;
 	color: #00AFEF;
-	text-decoration: none;
-}
+	}
 .header-section {
 	width: 55%;
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
-}
+        }
 .header-item {
 	padding: 10px 5px;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 12px;
 	margin-right: 40px;
-}
+	}
 .header-item a {
 	color: #00AFEF;
 	text-decoration: none;
-}
+        }
 .header-item-logo {
 	margin-left: 160px;
 	background-image: url("../img/logo-wowt.png");
 	width: 91px;
 	height: 43px;
-}
+	}
 .footer {
 	height: 100px;
 	width: auto;
@@ -178,4 +177,4 @@ article div {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
-}
+	}
