@@ -1,0 +1,71 @@
+	body {
+	background-image: url("../img/back.jpg");
+
+}
+div h1 {
+	font-family: Times New Roman;
+	color: #990000;
+	background-color: pink;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+
+}
+div li {
+	color: maroon;
+}
+
+h2 {
+	font-family: Times New Roman;
+	color: black;
+	background-color: #99ff66;
+	padding: 20px;
+	text-align: center;
+	}
+p {
+
+	font-family: Times New Roman;
+	padding-right: 60px;
+	color: black;
+
+	}
+		
+		
+img { 
+			
+	padding: 5px;
+	margin: 10px;
+
+	}
+
+ul {list-style-type: square;}
+
+		
+a:visited {
+	color: #e83e8c;
+}
+a:hover {
+color: green;
+ }
+		
+
+p span {
+		color: brown;
+		font-family: Verdana;
+		text-decoration: underline;
+		}
+	
+.information {
+	float: left;
+	height: 400px;
+	margin: 50px 20px 0 0;
+	}
+	
+.text-inf div p {
+    float: right;
+    font-family: Times New Roman;
+    font-size: 18px;
+    width: 700px;
+    }
+

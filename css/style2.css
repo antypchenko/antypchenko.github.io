@@ -1,0 +1,142 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+	min-height: 100%;
+}
+
+
+body {
+
+	
+	font-weight: normal;	
+	font-size: 13px;
+	background-image: url("../img/back.jpg");
+
+}
+
+.news-wrapper {
+	max-width: 960px;
+	margin: 10px auto;
+	padding: 0 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+	font-weight: bold;
+
+}
+
+
+h1 {	
+	font-size: 36px;	
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+
+article {
+	background: white;
+	width: 360px;	
+	
+	border-radius: 4px;
+	float: left;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+article .image-holder {
+
+	width: 37.22%;
+}
+
+
+article .content-holder {
+	width: 62.78%;
+	padding: 15px 15px 15px 20px;
+}
+
+
+
+article .content-holder h3 {
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #00AFEF;
+}
+
+article .content-holder p {
+	font-size: 12px;
+	text-align: left;
+}
+
+
+
+a.show-more {
+	display: inline-block;
+	margin-top: 10px;
+	color: #3C8204;
+}
+
+
+
+article div {
+
+	float: left;
+
+}
+
+p span {
+		color: #007bff;
+		font-family: Verdana;
+		font-weight: bold;
+		text-decoration: underline;
+		}
+
+/*Контейнер для 3 елементів*/
+.content-blocks {
+	margin: 10px;
+	width: auto;
+	height: 950px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	
+}
+/*Складові контейнера*/
+
+
+ .fon-image1 a, .fon-image2 a, .fon-image3 a {
+	color: #007bff;
+	font-size: 18px;
+	font-family: Verdana;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	text-decoration: underline;
+} 
+.fon-image1, .fon-image2, .fon-image3 {
+	border-radius: 4px;
+	width: 400px;
+	height: 150px;
+	margin-left: 20px;
+
+	}
+.fon-image1 {
+	background-image: url("../img/classtime.jpg");}
+.fon-image2 {
+	background-image: url("../img/images.png");}
+.fon-image3 {
+	background-image: url("../img/learn.jpg");}
+
+.info-pro {
+background-image: url("../img/back-1.jpg");
+font-family: Times New Roman;
+font-size: 16px;
+
+	width: 600px;
+	border: 2px solid #007bff;
+	padding: 10px 15px;
+}
