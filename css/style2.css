@@ -87,8 +87,9 @@ article div {
 }
 
 p span {
-		color: #007bff;
-		font-family: Verdana;
+		color: #6f42c1;
+		font-family: 'Lobster', cursive;
+		font-size: 150%;
 		font-weight: bold;
 		text-decoration: underline;
 		}
@@ -111,7 +112,7 @@ p span {
  .fon-image1 a, .fon-image2 a, .fon-image3 a {
 	color: #007bff;
 	font-size: 18px;
-	font-family: Verdana;
+	font-family: 'Lobster', cursive;
 	font-weight: bold;
 	padding-left: 25px;
 	padding-bottom: 25px;
@@ -133,10 +134,10 @@ p span {
 
 .info-pro {
 background-image: url("../img/back-1.jpg");
-font-family: Times New Roman;
-font-size: 16px;
+font-family: 'Neucha', cursive;
+	font-size: 150%;
 
-	width: 600px;
+	width: 60%;
 	border: 2px solid #007bff;
 	padding: 10px 15px;
 }
