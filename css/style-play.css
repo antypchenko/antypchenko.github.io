@@ -1,0 +1,15 @@
+body {
+	background-image: url("../img/back.jpg");
+
+}
+.inter {
+	font-family: 'Neucha', cursive;
+	font-size: 180%;
+}
+.inter p {
+	margin: 4% 10%;
+}
+.inter p span {
+	color: #fd7e14;
+	font-weight: bold;
+}
